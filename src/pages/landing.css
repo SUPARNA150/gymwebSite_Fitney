@@ -1,0 +1,15 @@
+.service-heading{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 25px;
+    font-weight: 750;
+    font-family: sans-serif;
+}
+.service-part{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
