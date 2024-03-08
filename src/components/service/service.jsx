@@ -1,9 +1,8 @@
-import React from "react";
 import "./service.css";
 
 const Service = ({ serviceName, description, imageLink }) => {
   return (
-    <div className="service">
+    <div className="service pb-14">
       <div className="w-[330px] rounded-md border">
         <img
           src={imageLink}

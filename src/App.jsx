@@ -1,13 +1,18 @@
-
-import './App.css'
+import { Outlet } from 'react-router-dom'
+import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'
-import Landing from './pages/landing'
+
 
 function App() {
   return (
     <>
+    {/*
       <Navbar/>
       <Landing/>
+  */}
+  <Navbar/>
+  <Outlet/>
+  <Footer/>
     </>
   )
 }
